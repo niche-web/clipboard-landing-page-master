@@ -76,7 +76,7 @@ p {
   padding: 10.5% 15% 3%;
 }
 
-.snippets-heading p {
+.snippets-heading p, .clipboard-container p {
   font-size: 1.142rem;
   width: 70%;
   margin: auto;
@@ -109,6 +109,18 @@ p {
 
 .snippets-container {
   margin-bottom: 45%;
+}
+
+/* ----------------------ClIPBOARD SECTION------------------------------- */
+
+.clipboard-container.container-fluid{
+  padding-top: 8%;
+}
+.clipboard-container h2{
+  margin-bottom: 2.15%;
+}
+.clipboard-container img{
+  margin-top: 9.9%;
 }
 
 /*------------------------ FOOTER SECTION------------------------------ */
@@ -152,7 +164,7 @@ p {
     width: 26%;
   }
 
-  .snippets-heading p, .snippets-text p, .heading-text p {
+  .snippets-heading p, .snippets-text p, .heading-text p, .clipboard-container p{
     font-weight: 400;
     font-size: 0.8rem;
     width: 68%;
@@ -205,4 +217,17 @@ p {
     position: static;
     text-align: center;
   }
+  .snippets-container.mobile-container{
+    margin-bottom: 17%;
+  }
+
+  /*------------------------ ClIPBOARD SECTION---------------- */
+  .clipboard-container img{
+    width: 70%;
+    margin-top: 14%;
+  }
+  .clipboard-container h2{
+    margin-bottom: 3.5%;
+  }
+
 }

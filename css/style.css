@@ -1,5 +1,5 @@
 html, body {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0;
   padding: 0;
 }
@@ -17,13 +17,13 @@ h1, h2, h3 {
 }
 
 h2 {
-  font-size: 2.17rem;
-  margin-bottom: 2.3%;
+  font-size: 2.185rem;
+  margin-bottom: 2.18%;
 }
 
 h3 {
   font-size: 1.46rem;
-  margin-bottom: 1.5%;
+  margin-bottom: 1.6%;
   margin-top: 11%;
 }
 
@@ -39,17 +39,27 @@ p {
   background-repeat: no-repeat;
 }
 
-.heading-text p {
-  margin: 1.2% auto 2.8%;
-  width: 50%;
-  font-size: 1.25rem;
+.heading-div svg {
+  margin: 8.8% auto 4.1%;
 }
 
-.heading-div svg {
-  margin: 8.76% auto 4%;
+.heading-text p {
+  margin: 1.3% auto 2.75%;
+  width: 50%;
+  font-size: 1.25rem;
+  letter-spacing: 0.01rem;
 }
 
 /* ----------------------Buttons ------------------------------------*/
+.btn-style {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 2.1% 6.05% 1.8%;
+  border-width: 0 1px 2.5px;
+  border-style: outset;
+  border-left-style: inset;
+}
+
 .button1 {
   background-color: hsl(171, 66%, 44%);
   border-color: hsl(171, 66%, 70%);
@@ -60,20 +70,17 @@ p {
   background-color: hsl(233, 100%, 69%);
   border-color: hsl(233, 100%, 85%);
   box-shadow: 0 8px 15px 0 hsl(233, 100%, 90%), 0 12px 30px 0 hsl(233, 100%, 95%);
-}
-
-.btn-style {
-  font-size: 1.18rem;
-  font-weight: 600;
-  padding: 1.8% 5%;
-  border-width: 0 1px 2.5px;
-  border-style: outset;
-  border-left-style: inset;
+  padding-left: 5.55%;
+  padding-right: 5.55%;
 }
 
 /* ------------------------SNIPPETS SECTION ----------------------------*/
 .container-fluid {
   padding: 10.5% 15% 3%;
+}
+
+.snippets-heading h2 {
+  margin-top: 0.1%;
 }
 
 .snippets-heading p, .clipboard-container p, .features-heading p {
@@ -87,14 +94,18 @@ p {
   margin-top: 2.5%;
 }
 
-.snippets-body img {
+.check {
+  display: none;
+}
+
+.snippets-body img:first-child {
   width: 56%;
   position: absolute;
   left: -2.2%;
 }
 
 .snippets-text {
-  padding-top: 1%;
+  margin-top: 1.05%;
   position: absolute;
   text-align: left;
   left: 62.3%
@@ -102,9 +113,14 @@ p {
 
 .snippets-text p {
   margin-left: 0;
+  margin-bottom: 11.5%;
   font-size: 1rem;
   width: 68%;
-  line-height: 1.95;
+  line-height: 1.93;
+}
+
+.snippets-text p:nth-child(4) {
+  margin-bottom: 11.3%;
 }
 
 .snippets-container {
@@ -113,20 +129,28 @@ p {
 
 /* ----------------------ClIPBOARD SECTION------------------------------- */
 .clipboard-container.container-fluid {
-  padding-top: 8%;
+  margin-top: -2.6%;
 }
 
 .clipboard-container h2 {
-  margin-bottom: 2.15%;
+  margin-bottom: 2.11%;
+}
+
+.clipboard-container p {
+  line-height: 1.66;
 }
 
 .clipboard-container img {
-  margin-top: 9.9%;
+  margin-top: 9.85%;
 }
 
 /* ------------------------FEATURES SECTION------------------------------ */
 .features-section-container.container-fluid {
   padding: 2.1% 7% 2.3%;
+}
+
+.container-logo {
+  margin-top: 0.3%;
 }
 
 .features-heading h2 {
@@ -138,11 +162,15 @@ p {
 }
 
 .container-logo {
-  height: 40px;
+  height: 38.5px;
 }
 
 .logo1 svg {
-  margin-top: -1%;
+  margin-top: -1.48%;
+}
+
+.card-text {
+  letter-spacing: 0.75%;
 }
 
 .card-text p {
@@ -155,7 +183,8 @@ p {
 
 /* --------------------BRANDS SECTION------------------------------------ */
 .container-fluid.brands-container {
-  padding: 2.1% 9.3%;
+  padding: 2.1% 9.3% 11.149%;
+  margin-top: 0.05%;
 }
 
 .brand {
@@ -182,6 +211,32 @@ p {
   margin-left: 12%;
 }
 
+/* -------------------CALL TO ACTION CONTAINER -------------------------*/
+.call-to-action-container h2 {
+  margin-top: -0.05%;
+  margin-bottom: 1.35%;
+  font-size: 2.19rem;
+}
+
+.call-to-action-container p {
+  font-size: 1.10rem;
+  width: 50%;
+  letter-spacing: 0.02rem;
+  line-height: 1.75;
+  margin: 0 auto 2.76%;
+}
+
+.call-to-actions-buttons .btn-style {
+  letter-spacing: 0.04rem;
+  padding-right: 4.8%;
+  padding-left: 4.8%;
+}
+
+.call-to-actions-buttons .button2 {
+  padding-right: 4.5%;
+  padding-left: 4.5%;
+}
+
 /*------------------------ FOOTER SECTION------------------------------ */
 .attribution {
   font-size: 11px;
@@ -200,15 +255,17 @@ p {
 
   h1, h2 {
     margin: auto;
-    width: 70%;
   }
 
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.58rem;
+    letter-spacing: -0.02rem;
+    line-height: 1.27;
+    margin-bottom: 5%;
   }
 
   h2 {
-    font-size: 1.45rem;
+    font-size: 1.42rem;
     margin-bottom: 3%;
   }
 
@@ -220,13 +277,13 @@ p {
 
   svg {
     height: auto;
-    width: 26%;
+    width: 26.7%;
   }
 
-  .snippets-heading p, .snippets-text p, .heading-text p, .clipboard-container p, .features-section-container p {
+  .heading-text p, .snippets-heading p, .snippets-text p, .clipboard-container p, .features-section-container p {
     font-weight: 400;
     font-size: 0.8rem;
-    width: 68%;
+    width: 100%;
     margin: auto;
   }
 
@@ -235,7 +292,7 @@ p {
   }
 
   .mobile-container {
-    padding: 15% 2%;
+    padding: 15% 16.5%;
   }
 
   .heading-text.mobile-container {
@@ -249,27 +306,87 @@ p {
   }
 
   .heading-div svg {
-    margin-top: 27%;
-    margin-bottom: 14%;
+    margin-top: 26%;
+    margin-bottom: 13.7%;
   }
 
   .heading-text p {
-    margin: 2.9% auto 7.5%;
+    margin: 4.5% auto 10.6%;
+    letter-spacing: 0.005rem;
+    line-height: 1.625;
   }
 
   /* ---------------------BUTTONS------------------------ */
   .btn-style {
-    padding: 2.7% 16.5%;
+    padding: 5% 23.8% 3.3% 24.4%;
+    font-size: 0.87rem;
+    letter-spacing: 0.048rem;
+    font-weight: 600;
+    margin-bottom: -0.2%
+  }
+
+  .button2 {
+    padding: 5% 24.1% 3.5% 23.5%;
+    letter-spacing: 0.04rem;
   }
 
   /*---------------------- SNIPPETS SECTION--------------- */
+  .snippets-container.mobile-container {
+    margin-top: 0.07%;
+    margin-bottom: 17%;
+  }
+
   .snippets-body {
     padding-top: 11%;
   }
 
-  .snippets-body img {
-    width: 70%;
+  .snippets-container h2 {
+    line-height: 1.25;
+    margin-bottom: 5%
+  }
+
+  .computer-image {
     position: relative;
+  }
+
+  .snippets-body img:first-child {
+    position: static;
+    padding-top: 7%;
+    padding-bottom: 4.8%;
+    width: 98%;
+    /* z-index: 1; */
+  }
+
+  .check {
+    display: inherit;
+    margin: 15% auto;
+    width: 25%;
+  }
+
+  .check-path {
+    fill: none;
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-width: 32px
+  }
+
+  .check-polyline {
+    fill: none;
+    stroke: #000;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 32px
+  }
+
+  .check-container {
+    border-radius: 4px;
+    width: 136px;
+    height: 77px;
+    position: absolute;
+    left: 23%;
+    top: 24%;
+    /* z-index: 2; */
+    background-color: white;
   }
 
   .snippets-text {
@@ -277,8 +394,12 @@ p {
     text-align: center;
   }
 
-  .snippets-container.mobile-container {
-    margin-bottom: 17%;
+  .snippets-text p {
+    /* line-height: 1.648; */
+  }
+
+  .snippets-text span {
+    line-height: 1;
   }
 
   /*------------------------ ClIPBOARD SECTION---------------- */
@@ -385,5 +506,19 @@ p {
   .brand {
     line-height: 0;
     margin-bottom: 8.2%;
+  }
+
+  /* -----------------------CALL TO ACTION SECTION ---------------------*/
+  .call-to-action-container {
+    padding-top: 18.6%;
+  }
+
+  .call-to-action-container h2 {
+    line-height: 1.25;
+    padding-bottom: 0.7%;
+  }
+
+  .call-to-action-container p {
+    line-height: 1.687;
   }
 }

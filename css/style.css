@@ -354,29 +354,9 @@ p {
     padding-top: 7%;
     padding-bottom: 4.8%;
     width: 98%;
-    /* z-index: 1; */
   }
 
-  .check {
-    display: inherit;
-    margin: 15% auto;
-    width: 25%;
-  }
 
-  .check-path {
-    fill: none;
-    stroke: #000;
-    stroke-miterlimit: 10;
-    stroke-width: 32px
-  }
-
-  .check-polyline {
-    fill: none;
-    stroke: #000;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 32px
-  }
 
   .check-container {
     border-radius: 4px;
@@ -385,8 +365,8 @@ p {
     position: absolute;
     left: 23%;
     top: 24%;
-    /* z-index: 2; */
     background-color: white;
+    background-image: url("../images/image-computer.png");
   }
 
   .snippets-text {

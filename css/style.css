@@ -1,12 +1,12 @@
 html, body {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0;
   padding: 0;
 }
 
 body {
   font-family: 'Bai Jamjuree';
-  font-size: 1.125rem;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -337,14 +337,35 @@ p {
   }
 
   .snippets-body {
-    padding-top: 11%;
+    margin-top: 11%;
+    margin-bottom:
   }
 
   .snippets-container h2 {
-    line-height: 1.25;
+    line-height: 1.232;
     margin-bottom: 5%
   }
-
+  .snippets-heading p{
+    line-height: 0;
+    font-size: 0.771rem;
+    width: 95%;
+    letter-spacing: 0.015rem;
+  }
+  .snippets-heading span:first-child{
+    line-height:1;
+  }
+  .snippets-heading span:nth-child(2){
+    line-height: 2.5;
+  }
+  .snippets-heading span:nth-child(3){
+    line-height: 0.8;
+  }
+  .snippets-heading span:nth-child(4){
+    line-height: 2.7;
+  }
+  .snippets-heading span:nth-child(5){
+    line-height: 0.6;
+  }
   .computer-image {
     position: relative;
   }
@@ -359,7 +380,7 @@ p {
 
 
   .check-container {
-    border-radius: 4px;
+    border-radius: 3px;
     width: 136px;
     height: 77px;
     position: absolute;
@@ -367,19 +388,31 @@ p {
     top: 24%;
     background-color: white;
     background-image: url("../images/image-computer.png");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: 50% 35.7%;
+    background-size: 270%;
   }
 
   .snippets-text {
     position: static;
     text-align: center;
+    margin-top: 13.5%;
   }
 
   .snippets-text p {
-    /* line-height: 1.648; */
+    line-height: 1.615;
   }
-
   .snippets-text span {
-    line-height: 1;
+    line-height: 1.63;
+  }
+  .snippets-text p:nth-child(4) {
+    line-height: 1.62;
+    width: 95%;
+  }
+  .snippets-text p:nth-child(6) {
+    line-height: 1.63;
+    width: 95%;
   }
 
   /*------------------------ ClIPBOARD SECTION---------------- */
@@ -390,8 +423,18 @@ p {
 
   .clipboard-container h2 {
     margin-bottom: 3.5%;
+    font-size: 1.4;
+    letter-spacing: -0.05rem;
   }
-
+  .clipboard-container p{
+    line-height: 0;
+  }
+  .clipboard-container span:first-child{
+    line-height: 3.25;
+  }
+  .clipboard-container span:nth-child(2){
+    line-height: 0.12;
+  }
   /* ---------------------FEATURES SECTION ------------------------*/
   .features-section-container.container-fluid {
     padding-top: 6.1%;

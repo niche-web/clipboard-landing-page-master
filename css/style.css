@@ -1,5 +1,5 @@
 html, body {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0;
   padding: 0;
 }
@@ -255,13 +255,32 @@ p {
 }
 .logo svg{
   height: auto;
-  width: 17%;
+  width: 18.5%;
+  margin-left: 24.5%;
 }
+
 .footer-menu p{
   font-size: 1.2rem;
   font-weight: bold;
 }
 
+.f3, .f4{
+  margin-left: -3%;
+}
+
+.f5{
+  margin-left: -3%;
+}
+.f2, .f4{
+  margin-top: -0.3%;
+}
+.social-icon-container{
+  margin-left: -2.5%;
+}
+.twitter{
+  margin-right: 4.5%;
+  margin-left: 4.5%;
+}
 .attribution {
   font-size: 11px;
   text-align: center;

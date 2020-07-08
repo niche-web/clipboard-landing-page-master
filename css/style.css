@@ -297,10 +297,6 @@ p {
 
 /* ----------------------------RESPONSIVENESS ---------------------*/
 @media (max-width: 540px) {
-  body {
-    text-align: center;
-  }
-
   h1, h2 {
     margin: auto;
   }
@@ -641,13 +637,14 @@ p {
     padding-left: 23%;
     padding-right: 24%;
     letter-spacing: 0.035rem;
-    margin-top: -0.2%;
+    margin-top: -0.6% !important;
+    padding-bottom: 3%;
   }
 
   /* -----------------FOOTER ----------------------------------*/
   .footer-container.container-fluid {
     padding: 2.8% 0 1.5%;
-    margin-top: 10.45%;
+    margin-top: 16.2%;
   }
 
   .mobile-no-gutter {
@@ -662,27 +659,55 @@ p {
 
   .logo svg {
     height: auto;
-    width: 18.5%;
-    margin: auto !important;
+    width: 13%;
+    margin: auto;
+    margin-top: 8.5%;
   }
 
   .footer-menu {
     text-align: center !important;
     margin: auto !important;
+    margin-bottom: 4.3% !important;
   }
 
-  /* .footer-menu p{
-    font-size: 1.2rem;
-    font-weight: bold;
-  } */
   .f1, .f2, .f3, .f4, .f5 {
     margin: auto;
+    order: 1;
+  }
+
+  .f1 {
+    margin-top: 8.65% !important;
+  }
+
+  .f3 {
+    margin-top: -0.15% !important;
+  }
+
+  .f4 {
+    margin-top: 0.001%;
+  }
+
+  .f4 {
+    margin-top: -0.001%;
+  }
+
+  .footer-menu p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.45rem;
   }
 
   .social-icon-container {
-    /* margin:auto!important; */
-    /* text-align:center!important; */
+    margin: auto !important;
   }
 
+  .social-icon-container svg {
+    height: auto;
+    width: 5.5%
+  }
 
+  .twitter {
+    margin-left: 7.8%;
+    margin-right: 7.8%;
+  }
 }

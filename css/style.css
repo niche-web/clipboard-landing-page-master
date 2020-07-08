@@ -76,6 +76,16 @@ p {
   padding-right: 5.55%;
 }
 
+/* --------------------ACTIVE STATE ------------------------------*/
+.button1.btn:hover{
+  color: hsl(171, 66%, 90%);
+  opacity: 0.8;
+}
+.button2.btn:hover{
+  color: hsl(233, 100%, 95%);
+  opacity: 0.8;
+}
+
 /* ------------------------SNIPPETS SECTION ----------------------------*/
 .container-fluid {
   padding: 10.5% 15% 3%;
@@ -264,7 +274,9 @@ p {
   font-size: 1.2rem;
   font-weight: bold;
 }
-
+.footer-menu p:hover {
+  color: #26BBA4!important;
+}
 .f3, .f4 {
   margin-left: -3%;
 }
@@ -279,6 +291,9 @@ p {
 
 .social-icon-container {
   margin-left: -2.5%;
+}
+.social-icon-container svg:hover path{
+  fill: #26BBA4;
 }
 
 .twitter {

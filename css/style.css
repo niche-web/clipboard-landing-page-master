@@ -4,6 +4,13 @@ html, body {
   padding: 0;
 }
 
+:root{
+  Strong-Cyan: hsl(171, 66%, 44%);
+  Light-Blue: hsl(233, 100%, 69%);
+  Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  Grayish-Blue: hsl(201, 11%, 66%);
+}
+
 body, footer {
   font-family: 'Bai Jamjuree';
   font-size: 16px;
@@ -146,6 +153,7 @@ p {
 
 .clipboard-container h2 {
   margin-bottom: 2.11%;
+  text-transform: capitalize;
 }
 
 .clipboard-container p {
@@ -488,7 +496,7 @@ p {
     font-size: 1.4rem;
     letter-spacing: -0.03rem;
     line-height: 1.28;
-  }
+    }
 
   .clipboard-container p {
     line-height: 0;
@@ -724,5 +732,13 @@ p {
   .twitter {
     margin-left: 7.8%;
     margin-right: 7.8%;
+  }
+}
+
+/* ---------------------FOR MY PHONE SIZE -------------------------*/
+@media (max-width: 350px){
+
+  .mobile-container {
+    padding: 15% 10%;
   }
 }

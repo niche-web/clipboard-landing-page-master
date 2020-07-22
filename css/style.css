@@ -61,7 +61,8 @@ p {
 .btn-style {
   font-size: 1.1rem;
   font-weight: 600;
-  padding: 2.1% 6.05% 1.8%;
+  letter-spacing: 0.04rem;
+  padding: 15px 33.5px 13px;
   border-width: 0 1px 2.5px;
   border-style: outset;
   border-left-style: inset;
@@ -79,8 +80,8 @@ p {
   border-color: hsl(233, 100%, 70%);
   box-shadow: 0 8px 15px 0 hsl(233, 100%, 90%), 0 12px 30px 0 hsl(233, 100%, 95%);
   color: hsl(233, 100%, 95%);
-  padding-left: 5.55%;
-  padding-right: 5.55%;
+  padding-left: 31.5px;
+  padding-right: 33.5px;
 }
 
 /* --------------------ACTIVE STATE ------------------------------*/
@@ -257,13 +258,13 @@ p {
 }
 
 #call-to-action .button1 {
-  padding-right: 5%;
-  padding-left: 4.6%;
+  padding-right: 32px;
+  padding-left: 33px;
 }
 
 #call-to-action .button2 {
-  padding-right: 4.5%;
-  padding-left: 4.5%;
+  padding-right: 33px;
+  padding-left: 33px;
 }
 
 /*------------------------ FOOTER SECTION------------------------------ */

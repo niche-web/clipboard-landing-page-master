@@ -644,12 +644,6 @@ p {
   .call-to-action-container span {
     line-height: 1.65;
   }
-/* 12px 61px 8.5px; */
-  /* #call-to-action .btn-style {
-    letter-spacing: 0.03rem;
-    padding-right: 61px;
-    padding-left: 61px;
-  } */
 
   #call-to-action .button1 {
     margin-top: -0.5%;
@@ -665,9 +659,7 @@ p {
     padding-left: 57px;
     padding-top: 12px;
     padding-bottom: 9px;
-    /* padding-bottom: 3%; */
     letter-spacing: 0.03rem;
-    /* margin-top: 0px !important; */
 
   }
 

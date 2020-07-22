@@ -738,6 +738,10 @@ p {
 @media (max-width: 350px){
 
   .mobile-container {
-    padding: 15% 10%;
+    padding: 15% 5%;
+  }
+  .snippets-heading p{
+    line-height: 1.2;
+    width: 85%;
   }
 }
